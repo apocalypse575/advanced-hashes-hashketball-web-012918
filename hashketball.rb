@@ -152,6 +152,7 @@ def num_points_scored(name)
       if name_color_players == :players
         all_values.each do |player, stats|
               puts player
+              puts stats
           if player == name
               return stats[:points]
           end
