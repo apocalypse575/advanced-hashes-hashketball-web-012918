@@ -155,7 +155,7 @@ def num_points_scored(name)
 
           if player == name
               puts stats[:points]
-              return stats[:points]
+              # return stats[:points]
           end
         end
       end
