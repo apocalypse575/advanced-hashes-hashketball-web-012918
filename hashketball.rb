@@ -160,8 +160,8 @@ def num_points_scored(name)
         end
       end
     end
+    return points
   end
-return points
 end
 
 
